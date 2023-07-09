@@ -1,0 +1,45 @@
+.SH-M-menubtn{
+    width:100px;
+    height: 100px;
+    background-color: bisque;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.SH-M-menubtn div{
+    background-color: black;
+    height: 9%;
+    position: absolute;
+    transition: all 0.3s;
+    right: 20%;
+    width: 60%
+}
+
+.SH-M-menubtn div:first-child{
+    top:25%;
+}
+
+.SH-M-menubtn div:nth-child(2){
+    top: 45%;
+}
+.SH-M-menubtn div:last-child{
+    bottom:25%;
+}
+
+.SH-MO-menubtn div:nth-child(2){
+    opacity: 0;
+}
+.SH-MO-menubtn div:first-child{
+    transform: rotate(-45deg);
+    top:45%;
+}
+
+.SH-MO-menubtn div:last-child{
+    transform: rotate(45deg);  
+    bottom:45%;
+}
+
+
+
+
